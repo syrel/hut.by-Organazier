@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <by.hut.flat.calendar.anketa.AnketaPager
+        android:id="@+id/anketa_pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+    </by.hut.flat.calendar.anketa.AnketaPager>
+
+    <LinearLayout
+        android:id="@+id/navigation"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#FF222222"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/main"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_default_holo_dark"
+            android:text="@string/anketa_button_main"
+            android:textColor="#FFFFFFFF"
+            android:textSize="11sp"
+            tools:ignore="SmallSp" />
+
+        <Button
+            android:id="@+id/edit"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.6"
+            android:background="@drawable/btn_default_holo_dark"
+            android:textColor="#FFFFFFFF"
+            android:textSize="11sp"
+            tools:ignore="SmallSp" />
+
+        <Button
+            android:id="@+id/convert"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.6"
+            android:background="@drawable/btn_default_holo_dark"
+            android:text="@string/anketa_button_convert"
+            android:textColor="#FFFFFFFF"
+            android:textSize="11sp"
+            tools:ignore="SmallSp" />
+
+        <Button
+            android:id="@+id/dates"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/btn_default_holo_dark"
+            android:text="@string/anketa_button_dates"
+            android:textColor="#FFFFFFFF"
+            android:textSize="11sp"
+            tools:ignore="SmallSp" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="application_name">Органайзер</string>
+	<string name="search_name">Поиск</string>
+    <string name="activity_today_name">Сегодня:</string>
+    <string name="activity_statistics_name">Статистика:</string>
+    <string name="activity_search_name">Поиск:</string>
+	<string name="widget_torch_name">Фонарик Hut.by</string>
+	<string name="widget_torch_text">Фонарик</string>
+	<string name="main_tab_host_sausage_name">Главная</string>
+	<string name="main_tab_host_calendar_name">Календарь</string>
+    <string name="main_tab_host_advanced_name">Меню</string>
+    <string name="sausage_infobar_debt">длг</string>
+    <string name="sausage_infobar_prepay">здк</string>
+    <string name="sausage_infobar_payment">цена | сумма</string>
+    <string name="sausage_infobar_prices">цена</string>
+    <string name="sausage_infobar_summs">сумма</string>
+    <string name="sausage_infobar_convert">преобр</string>
+    <string name="sausage_infobar_name">имя</string>
+    <string name="sausage_infobar_phone">тлф</string>
+    <string name="sausage_infobar_phone_name">тлф | имя</string>
+	<string name="flat_calendar_header_flat">Кв.</string>
+    <string name="flat_calendar_button_convert_text">Преобразовать</string>
+    <string name="flat_calendar_button_free_text">Пусто</string>
+    <string name="flat_calendar_button_booked_text">Бронь</string>
+    <string name="flat_calendar_button_rented_text">Сдана</string>
+    <string name="anketa_type_book">бронь</string>
+    <string name="anketa_type_rent">аренда</string>
+    <string name="anketa_button_main">Главная</string>
+    <string name="anketa_button_edit">Редактировать</string>
+    <string name="anketa_button_save">Сохранить</string>
+    <string name="anketa_button_dates">Даты</string>
+    <string name="anketa_button_convert">Преобразовать</string>
+    <string name="dialog_button_ok_text">Да</string>
+    <string name="dialog_button_cancel_text">Отмена</string>
+    <string name="dialog_button_close_text">Закрыть</string>
+	<string name="dialog_datetime_title">Новая дата:</string>
+	<string name="dialog_datetime_from">Заезд:</string>
+	<string name="dialog_datetime_to">Выезд:</string>
+    <string name="menu_flat_cleanings">Уборки</string>
+    <string name="menu_flat_cleanings_title">Меню уборок:</string>
+    <string name="menu_flat_cleaning_add">Добавить</string>
+	<string name="menu_flat_cleaning_change">Изменить</string>
+	<string name="menu_flat_cleaning_delete">Удалить</string>
+	<string name="menu_flat_convert_event">Преобразовать</string>
+	<string name="monday">Понедельник</string>
+	<string name="tuesday">Вторник</string>
+	<string name="wednesday">Среда</string>
+	<string name="thursday">Четверг</string>
+	<string name="friday">Пятница</string>
+	<string name="saturday">Суббота</string>
+	<string name="sunday">Воскресенье</string>
+	<string name="monday_short">Пн</string>
+	<string name="tuesday_short">Вт</string>
+	<string name="wednesday_short">Ср</string>
+	<string name="thursday_short">Чт</string>
+	<string name="friday_short">Пт</string>
+	<string name="saturday_short">Сб</string>
+	<string name="sunday_short">Вс</string>
+	<string name="january">январь</string>
+	<string name="february">февраль</string>
+	<string name="march">март</string>
+	<string name="april">апрель</string>
+	<string name="may">май</string>
+	<string name="june">июнь</string>
+	<string name="july">июль</string>
+	<string name="august">август</string>
+	<string name="september">сентябрь</string>
+	<string name="october">октябрь</string>
+	<string name="november">ноябрь</string>
+	<string name="december">декабрь</string>
+    <array name="anketa_param_names">
+		<item>Тел.</item>
+		<item>Тел.</item>
+		<item>Имя</item>
+		<item>Имя</item>
+		<item>Цена</item>
+		<item>Сумма</item>
+		<item>Заезд</item>
+		<item>Выезд</item>
+		<item>Долг</item>
+		<item>Задаток</item>
+		<item>Заметка</item>
+		<item>Доп.Инфо</item>
+		<item>Aнкета</item>
+	</array>
+	<array name="db_default_maiden_names">
+	    <item>Безличная уборка</item>
+	    <item>Горничная 1</item>
+	    <item>Горничная 2</item>
+	    <item>Горничная 3</item>
+	</array>
+	<string name="advanced_menu_flats">Квартиры</string>
+	<string name="advanced_menu_maids">Горничные</string>
+	<string name="advanced_menu_exit">Выход</string>
+	<string name="advanced_menu_search">Поиск</string>
+	<string name="advanced_flat_add_button_add_text">Добавить</string>
+	<string name="advanced_flat_add_button_save_text">Сохранить</string>
+	<string name="advanced_flat_add_address_text">Введите адрес:</string>
+	<string name="advanced_flat_add_short_address_text">Введите краткий адрес:</string>
+	<string name="advanced_flat_edit_address_text">Адрес:</string>
+	<string name="advanced_flat_edit_short_address_text">Краткий адрес:</string>
+	<string name="advanced_flat_edit_short_address_sausage_text">краткий адрес на главной</string>
+	<string name="advanced_flat_edit_hidden_text">скрыта</string>
+	<string name="advanced_maiden_add_fio_text">Введите имя:</string>
+	<string name="advanced_maiden_add_work_text">Укажите график работы:</string>
+	<string name="advanced_maiden_edit_fio_text">Имя:</string>
+	<string name="advanced_maiden_edit_hidden_text">скрыта</string>
+	<string name="advanced_maiden_edit_work_text">График работы:</string>
+	<string name="advanced_today_price">Цена:</string>
+	<string name="advanced_today_cost">Сумма:</string>
+	<string name="advanced_today_settlement">Заезд:</string>
+	<string name="advanced_today_eviction">Выезд:</string>
+	<string name="advanced_today_settlement_type">Заезд</string>
+	<string name="advanced_today_eviction_type">Выезд</string>
+</resources>

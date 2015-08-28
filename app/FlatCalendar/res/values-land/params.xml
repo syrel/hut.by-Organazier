@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="integer" format="integer" name="default_sausage_cell_num_on_the_screen">15</item>
+	<item type="integer" format="integer" name="default_sausage_cell_num_before_today">7</item>
+	<item type="integer" format="integer" name="default_calendar_cell_text_size_percent">50</item>
+</resources>

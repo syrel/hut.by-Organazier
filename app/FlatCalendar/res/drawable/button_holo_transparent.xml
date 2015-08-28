@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+ 	<!-- selected -->
+    <item android:drawable="@drawable/button_holo_transparent_img" android:state_focused="true" android:state_pressed="false"/>
+	 <!-- focused -->
+    <item android:drawable="@drawable/button_holo_transparent_img" android:state_focused="true" android:state_pressed="true"/>
+	 <!-- pressed -->
+    <item android:drawable="@drawable/button_holo_transparent_img" android:state_focused="false" android:state_pressed="true"/>
+	 <!-- normal -->
+    <item android:drawable="@drawable/button_holo_transparent_img"/>
+</selector>

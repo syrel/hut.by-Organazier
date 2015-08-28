@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="application_name">Organizer</string>
+	<string name="search_name">Search</string>
+    <string name="activity_today_name">Today:</string>
+    <string name="activity_statistics_name">Statistics:</string>
+    <string name="activity_search_name">Search:</string>
+	<string name="widget_torch_name">Torch Hut.by</string>
+	<string name="widget_torch_text">Torch</string>
+    <string name="main_tab_host_sausage_name">Main</string>
+    <string name="main_tab_host_calendar_name">Calendar</string>
+    <string name="main_tab_host_advanced_name">Menu</string>
+    <string name="sausage_infobar_debt">debt</string>
+    <string name="sausage_infobar_prepay">prepay</string>
+    <string name="sausage_infobar_payment">price | summ</string>
+    <string name="sausage_infobar_prices">price</string>
+    <string name="sausage_infobar_summs">summ</string>
+    <string name="sausage_infobar_convert">convert</string>
+    <string name="sausage_infobar_name">name</string>
+    <string name="sausage_infobar_phone">tel</string>
+    <string name="sausage_infobar_phone_name">tel | name</string>
+    <string name="flat_calendar_header_flat">Flat.</string>
+    <string name="flat_calendar_button_convert_text">Convert</string>
+    <string name="flat_calendar_button_free_text">Free</string>
+    <string name="flat_calendar_button_booked_text">Book</string>
+    <string name="flat_calendar_button_rented_text">Rent</string>
+    <string name="anketa_type_book">book</string>
+    <string name="anketa_type_rent">rent</string>
+    <string name="anketa_button_main">Main</string>
+    <string name="anketa_button_edit">Edit</string>
+    <string name="anketa_button_save">Save</string>
+    <string name="anketa_button_dates">Dates</string>
+    <string name="anketa_button_convert">Convert</string>
+    <string name="dialog_button_ok_text">OK</string>
+    <string name="dialog_button_cancel_text">Cancel</string>
+    <string name="dialog_button_close_text">Close</string>
+	<string name="dialog_datetime_title">New date:</string>
+	<string name="dialog_datetime_from">Settlement:</string>
+	<string name="dialog_datetime_to">Eviction:</string>
+    <string name="menu_flat_cleanings">Cleanings</string>
+    <string name="menu_flat_cleanings_title">Cleanings menu:</string>
+    <string name="menu_flat_cleaning_add">Add</string>
+	<string name="menu_flat_cleaning_change">Change</string>
+	<string name="menu_flat_cleaning_delete">Delete</string>
+	<string name="menu_flat_convert_event">Convert</string>
+	<string name="monday">Monday</string>
+	<string name="tuesday">Tuesday</string>
+	<string name="wednesday">Wednesday</string>
+	<string name="thursday">Thursday</string>
+	<string name="friday">Friday</string>
+	<string name="saturday">Saturday</string>
+	<string name="sunday">Sunday</string>
+	<string name="monday_short">Mo</string>
+	<string name="tuesday_short">Tu</string>
+	<string name="wednesday_short">We</string>
+	<string name="thursday_short">Th</string>
+	<string name="friday_short">Fr</string>
+	<string name="saturday_short">Sa</string>
+	<string name="sunday_short">Su</string>
+	<string name="january">january</string>
+	<string name="february">february</string>
+	<string name="march">march</string>
+	<string name="april">april</string>
+	<string name="may">may</string>
+	<string name="june">june</string>
+	<string name="july">july</string>
+	<string name="august">august</string>
+	<string name="september">september</string>
+	<string name="october">october</string>
+	<string name="november">november</string>
+	<string name="december">december</string>
+    <array name="anketa_param_names">
+		<item>Tel.</item>
+		<item>Tel.</item>
+		<item>Name</item>
+		<item>Name</item>
+		<item>Price</item>
+		<item>Total</item>
+		<item>Settlement</item>
+		<item>Eviction</item>
+		<item>Debt</item>
+		<item>Deposit</item>
+		<item>Note</item>
+		<item>Info</item>
+		<item>Worksheet</item>
+	</array>
+	<array name="db_default_maiden_names">
+	    <item>Default cleaning</item>
+	    <item>Maiden 1</item>
+	    <item>Maiden 2</item>
+	    <item>Maiden 3</item>
+	</array>
+	
+	<string name="advanced_menu_flats">Flats</string>
+	<string name="advanced_menu_maids">Maids</string>
+	<string name="advanced_menu_exit">Exit</string>
+	<string name="advanced_menu_search">Search</string>
+	<string name="advanced_flat_add_button_add_text">Add</string>
+	<string name="advanced_flat_add_button_save_text">Save</string>
+	<string name="advanced_flat_add_address_text">Enter address:</string>
+	<string name="advanced_flat_add_short_address_text">Enter short address:</string>
+	<string name="advanced_flat_edit_address_text">Address:</string>
+	<string name="advanced_flat_edit_short_address_text">Short address:</string>
+	<string name="advanced_flat_edit_short_address_sausage_text">short address on main</string>
+	<string name="advanced_flat_edit_hidden_text">hidden</string>
+	<string name="advanced_maiden_add_fio_text">Enter maid name:</string>
+	<string name="advanced_maiden_add_work_text">Set work timetable:</string>
+	<string name="advanced_maiden_edit_fio_text">Maid name:</string>
+	<string name="advanced_maiden_edit_hidden_text">hidden</string>
+	<string name="advanced_maiden_edit_work_text">Work timetable:</string>
+	<string name="advanced_today_price">Price:</string>
+	<string name="advanced_today_cost">Cost:</string>
+	<string name="advanced_today_settlement">Sett.:</string>
+	<string name="advanced_today_eviction">Evict.:</string>
+	<string name="advanced_today_settlement_type">Sett.</string>
+	<string name="advanced_today_eviction_type">Evict.</string>
+</resources>

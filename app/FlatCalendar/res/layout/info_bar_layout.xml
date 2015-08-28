@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<by.hut.flat.calendar.widget.layout.ObservableHorizontalScrollView 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="2dp"
+    android:overScrollMode="never" >
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+    </LinearLayout>
+	
+</by.hut.flat.calendar.widget.layout.ObservableHorizontalScrollView>

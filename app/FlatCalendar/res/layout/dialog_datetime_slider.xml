@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<by.hut.flat.calendar.dialog.date.SliderContainer
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/by.hut.flat.calendar"
+    android:id="@+id/dateSliderContainer"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent">
+    
+    <include layout="@layout/dialog_title_holo"/>
+    <by.hut.flat.calendar.dialog.date.ScrollLayout
+        style="@style/Scroller"
+        app:labelerClass="by.hut.flat.calendar.widget.datetime.labeler.MonthYearLabeler"
+        app:labelerFormat="%tb %tY"
+        app:childWidth="90dp"
+        android:layout_marginLeft="16dp"
+        />
+    <by.hut.flat.calendar.dialog.date.ScrollLayout
+        style="@style/Scroller"
+        app:labelerClass="by.hut.flat.calendar.widget.datetime.labeler.DayDateLabeler"
+        app:labelerFormat="%td %ta"
+        app:childWidth="45dp"
+        />
+    <include layout="@layout/dialog_datetime_buttons"/>
+</by.hut.flat.calendar.dialog.date.SliderContainer>

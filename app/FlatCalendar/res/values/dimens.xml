@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="default_sausage_button_width">30dp</dimen>
+    <dimen name="default_sausage_footer_height">30dp</dimen>
+    <dimen name="default_main_tab_host_height">20dp</dimen>
+    <dimen name="default_flat_calendar_footer_height">60dp</dimen>
+    <dimen name="default_flat_calendar_header_height">50dp</dimen>
+    <dimen name="dialog_title_height">54dip</dimen>
+</resources>

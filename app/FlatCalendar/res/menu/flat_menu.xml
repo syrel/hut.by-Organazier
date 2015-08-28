@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/cleaning" android:title="@string/menu_flat_cleanings"/>
+	<item android:id="@+id/cleaning_add" android:title="@string/menu_flat_cleaning_add"/>
+	<item android:id="@+id/cleaning_change" android:title="@string/menu_flat_cleaning_change"/>
+	<item android:id="@+id/cleaning_delete" android:title="@string/menu_flat_cleaning_delete"/>
+</menu>
