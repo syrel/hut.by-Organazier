@@ -11,8 +11,8 @@ import android.os.Build;
 import android.view.Gravity;
 import android.widget.LinearLayout.LayoutParams;
 
-public class SausageCellDay extends FastTextView{
-	private final int monthMargin = 5;
+public class SausageCellDay extends FastTextView {
+	private static final int monthMargin = 5;
 	private static final int textColor = Color.BLACK;
 	private static final int todayTextColor = Color.WHITE;
 	
@@ -57,6 +57,7 @@ public class SausageCellDay extends FastTextView{
 		initText();
 		initBackground();
 	}
+
 	private void initSize(){
 		this.setLayoutProvider(new CacheLayoutProvider());
 		width = this.dimension.width;
@@ -65,17 +66,16 @@ public class SausageCellDay extends FastTextView{
 			LayoutParams layoutParams = new LayoutParams(LayoutParams.WRAP_CONTENT, LayoutParams.WRAP_CONTENT, Gravity.NO_GRAVITY);
 			layoutParams.leftMargin = monthMargin;
 			this.setLayoutParams(layoutParams);
-			layoutParams = null;
 		}
 	}
+
 	private void initText(){
 		this.setGravity(Gravity.CENTER_VERTICAL);
 		this.setTextSize(Config.INST.SAUSAGE.CELL_TEXT_SIZE);
-		this.setTextColor((isToday ? todayTextColor: textColor));
+		this.setTextColor(isToday ? todayTextColor: textColor);
 		this.setText(Config.INST.STRINGS.DAYS_OF_WEEK_SHORT[dayOfWeek]);
 	}
-	
-	@SuppressWarnings("deprecation")
+
 	private void initBackground(){
 		SausageCellDayBackground cellBackground = new SausageCellDayBackground(dimension,date,today,dayOfWeek,this.isFirst,this.isLast,this.isToday);
 		if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN){
@@ -84,6 +84,5 @@ public class SausageCellDay extends FastTextView{
 		else {
 			this.setBackgroundDrawable(cellBackground.background);
 		}
-		cellBackground = null;
 	}
 }

@@ -129,40 +129,40 @@ public class Payment extends Table{
 		return result;
 	}
 	
-	public String getProfit(Date dateFrom, Date dateTo, Date today){
-		db.open();
-		String query = "SELECT sum(profit.sum) " +
-				"FROM (SELECT c.date,sum(m.amount*1.0/days.num) as sum,days.num " +
-				"FROM calendarCache c " +
-				"INNER JOIN interval i, intervalFlat if, intervalMoney im, money m, payment p, " +
-				"(SELECT i.iid as iid,COUNT(*)-1 as num FROM calendarCache c " +
-				"INNER JOIN intervalFlat if, intervalAnketa ia, interval i " +
-				"ON if.fid = c.fid AND i.iid = if.iid AND ia.iid=i.iid " +
-				"WHERE (? <= i.date_from OR ? <= i.date_to) " +
-				"AND (? >= i.date_from OR ? >= i.date_to) " +
-				"AND c.date BETWEEN i.date_from AND i.date_to " +
-				//"AND ia.type = ? "+
+	public String getProfit(Date dateFrom, Date dateTo, Date today) {
+        db.open();
+        String query = "SELECT sum(profit.sum) " +
+                "FROM (SELECT c.date,sum(m.amount*1.0/days.num) as sum,days.num " +
+                "FROM calendarCache c " +
+                "INNER JOIN interval i, intervalFlat if, intervalMoney im, money m, payment p, " +
+                "(SELECT i.iid as iid,COUNT(*)-1 as num FROM calendarCache c " +
+                "INNER JOIN intervalFlat if, intervalAnketa ia, interval i " +
+                "ON if.fid = c.fid AND i.iid = if.iid AND ia.iid=i.iid " +
+                "WHERE (? <= i.date_from OR ? <= i.date_to) " +
+                "AND (? >= i.date_from OR ? >= i.date_to) " +
+                "AND c.date BETWEEN i.date_from AND i.date_to " +
+                //"AND ia.type = ? "+
                 "GROUP BY i.iid) days ON if.fid = c.fid AND i.iid = if.iid " +
-				"AND im.iid=i.iid AND im.mid = m.mid AND m.mid = p.mid AND days.iid=i.iid " +
-				"WHERE i.iid = days.iid AND c.date BETWEEN ? AND ? " +
-				"AND c.date >= i.date_from AND c.date < i.date_to " +
-				"AND c.date <= ? " +
-				"GROUP BY c.date ORDER BY c.date) as profit;";
-		Cursor cursor = db.getDB().rawQuery(query,new String[]{
-				""+dateFrom.toInt(),
-				""+dateFrom.toInt(),
-				""+dateTo.toInt(),
-				""+dateTo.toInt(),
-				//""+dbStructure.RENT,
-				""+dateFrom.toInt(),
-				""+dateTo.toInt(),
-				""+today.toInt()
-			});
-		String result = Utils.getRow(Table.getResultString(cursor),0)[0];
-		if (result == null || result.length() == 0) result = "0";
-		if(!initOpen) db.close();
-		return result;
-	}
+                "AND im.iid=i.iid AND im.mid = m.mid AND m.mid = p.mid AND days.iid=i.iid " +
+                "WHERE i.iid = days.iid AND c.date BETWEEN ? AND ? " +
+                "AND c.date >= i.date_from AND c.date < i.date_to " +
+                "AND c.date <= ? " +
+                "GROUP BY c.date ORDER BY c.date) as profit;";
+        Cursor cursor = db.getDB().rawQuery(query, new String[]{
+                "" + dateFrom.toInt(),
+                "" + dateFrom.toInt(),
+                "" + dateTo.toInt(),
+                "" + dateTo.toInt(),
+                //""+dbStructure.RENT,
+                "" + dateFrom.toInt(),
+                "" + dateTo.toInt(),
+                "" + today.toInt()
+        });
+        String result = Utils.getRow(Table.getResultString(cursor), 0)[0];
+        if (result == null || result.length() == 0) result = "0";
+        if (!initOpen) db.close();
+        return result;
+    }
 	
 	public String getProfit(int FlatID, Date today){
 		db.open();

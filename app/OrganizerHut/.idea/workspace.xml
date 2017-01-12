@@ -10,446 +10,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="542e5292-55c4-49b5-9197-4c4d1795d58c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/actionbarsherlock_4_4_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/hamcrest_core_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/junit_4_12.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/mockito_core_1_10_19.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/objenesis_2_1.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_annotations_22_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_22_1_0.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/widget/layout/TextTableRow.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.classpath" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.settings/org.eclipse.core.resources.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/Database.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/DayState.ods" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/FlatCalendarDB.dia" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/array.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/database.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/query.sql" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/assets/transition.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/libs/armeabi/libandroid_sqlite.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/lint.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/previews.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/abs__list_focused_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/abs__list_pressed_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/abs__tab_selected_focused_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/abs__tab_selected_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/abs__tab_selected_pressed_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/abs__tab_unselected_pressed_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/bg_striped_img.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/bg_striped_split_img.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/btn_default_disabled_focused_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/btn_default_disabled_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/btn_default_focused_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/btn_default_normal_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/btn_default_pressed_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/dialog_float_bg.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/dialog_full_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/hut_by.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/ic_menu_myplaces.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/ic_menu_refresh.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/tab_divider.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-mdpi/abs__list_focused_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-mdpi/abs__list_pressed_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-mdpi/abs__tab_selected_focused_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-mdpi/abs__tab_selected_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-mdpi/abs__tab_selected_pressed_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-mdpi/abs__tab_unselected_pressed_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-mdpi/btn_radio_off_disabled_focused_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-mdpi/btn_radio_off_disabled_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-mdpi/btn_radio_off_focused_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-mdpi/btn_radio_off_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-mdpi/btn_radio_off_pressed_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-mdpi/btn_radio_on_disabled_focused_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-mdpi/btn_radio_on_disabled_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-mdpi/btn_radio_on_focused_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-mdpi/btn_radio_on_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-mdpi/btn_radio_on_pressed_holo_dark.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-mdpi/button_holo_normal_50x50.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-mdpi/button_holo_pressed_50x50.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-mdpi/button_holo_transparent_img.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-mdpi/button_holo_transparent_normal_105x55.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-mdpi/button_holo_transparent_pressed_105x55.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-mdpi/button_white_normal_50x50.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-mdpi/button_white_pressed_50x50.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-mdpi/dialog_float_bg.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-mdpi/ic_menu_collapse.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-mdpi/ic_menu_expand.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-mdpi/ic_menu_myplaces.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-mdpi/ic_menu_refresh.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-mdpi/orange_main_b_img.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-mdpi/orange_second_b_img.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-mdpi/yellow_main_b_img.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/abs__list_focused_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/abs__list_pressed_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/abs__tab_selected_focused_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/abs__tab_selected_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/abs__tab_selected_pressed_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/abs__tab_unselected_pressed_holo.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/advanced_today_star_off.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/advanced_today_star_on.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/anketa_entry_divide.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/dialog_float_bg.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/dialog_full_holo_dark.9.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/ic_menu_myplaces.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/ic_menu_refresh.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-xhdpi/widget_torch.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/advanced_activity_menu_entry_bg.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/advanced_activity_menu_entry_bg_normal.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/advanced_activity_menu_entry_bg_pressed.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/anketa_background_gradient_book.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/anketa_background_gradient_rent.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/bg_striped.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/btn_default_holo_dark.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/btn_radio_holo_dark.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/button_holo_50x50.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/button_holo_transparent.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/button_holo_transparent_105x55.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/button_white_50x50.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/dialog_datetime_left_shadow.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/dialog_datetime_right_shadow.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/dialog_datetime_slider_back.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/dialog_floating_bg.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/dialog_floating_select_interval_entry_bg.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/dialog_floating_select_interval_entry_bg_select.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/info_bar_notification_bg.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/info_bar_notification_bg_pressed.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/statistics_title_bg_normal.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/tab_bg_selected.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/tab_bg_selector.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/tab_bg_unselected.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/tab_text_selector.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable/table_border_black.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/advanced_activity.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/advanced_activity_menu_entry.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/advanced_anketa_entry.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/advanced_flats_activity.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/advanced_flats_activity_flat_add.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/advanced_flats_activity_flat_edit.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/advanced_flats_activity_flat_layout.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/advanced_maiden_activity.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/advanced_maiden_activity_maiden_add.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/advanced_maiden_activity_maiden_edit.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/advanced_maiden_activity_maiden_layout.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/anketa_activity.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/anketa_activity_page.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/anketa_activity_page_edit_layout.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/anketa_activity_page_layout.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/custom_list.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/custom_list_controller.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/dialog_datetime_buttons.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/dialog_datetime_slider.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/dialog_datetime_title.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/dialog_float_activity.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/dialog_floating_select_cleaning_activity_entry.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/dialog_floating_select_dates_activity_entry.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/dialog_floating_select_interval_activity_entry.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/dialog_select_activity.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/dialog_thread_activity.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/dialog_title_holo.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/flat_activity.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/flat_activity_page.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/flat_calendar.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/flat_calendar_line.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/info_bar_layout.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/main_tab_host.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/main_tab_host_bg.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/sausage_activity.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/sausage_calendar.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/sausage_calendar_line.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/search_activity.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/statistics_activity.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/today_activity.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/widget_torch_layout.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/menu/flat_menu.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values-hdpi/dimens.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values-land-xhdpi/dimens.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values-land/params.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values-ru/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values-xhdpi/dimens.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values/attrs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values/colors.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values/dimens.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values/params.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values/styles.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/values/themes.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/res/xml/widget_torch.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/advanced/AdvancedActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/advanced/BackupCreate.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/advanced/BackupRestore.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/advanced/Exit.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/advanced/Flats.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/advanced/Maiden.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/advanced/Menu.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/advanced/Search.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/advanced/Torch.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/advanced/flats/AdvancedFlat.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/advanced/flats/AdvancedFlatAdd.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/advanced/flats/AdvancedFlatAddView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/advanced/flats/AdvancedFlatEdit.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/advanced/flats/AdvancedFlatEditView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/advanced/flats/AdvancedFlatList.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/advanced/flats/AdvancedFlatListController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/advanced/flats/AdvancedFlatListView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/advanced/flats/AdvancedFlatView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/advanced/flats/AdvancedFlatsActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/advanced/maiden/AdvancedMaiden.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/advanced/maiden/AdvancedMaidenActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/advanced/maiden/AdvancedMaidenAdd.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/advanced/maiden/AdvancedMaidenAddView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/advanced/maiden/AdvancedMaidenEdit.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/advanced/maiden/AdvancedMaidenEditView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/advanced/maiden/AdvancedMaidenList.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/advanced/maiden/AdvancedMaidenListController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/advanced/maiden/AdvancedMaidenListView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/advanced/maiden/AdvancedMaidenView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/advanced/search/SearchActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/advanced/today/TodayActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/anketa/AnketaActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/anketa/AnketaPager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/anketa/AnketaPagerEditFrame.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/anketa/AnketaPagerFrame.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/anketa/MoneyParseException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/anketa/Settable.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/anketa/Visitable.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/anketa/Visitor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/cell/FlatCell.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/cell/FlatCellBackground.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/cell/FlatCellDay.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/cell/FlatCellDayBackground.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/cell/ICell.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/cell/MaidenBackground.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/cell/SausageCell.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/cell/SausageCellBackground.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/cell/SausageCellDay.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/cell/SausageCellDayBackground.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/cell/SausageCellMonth.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/cell/SausageCellMonthBackground.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/core/Config.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/core/DBAdapter/DBAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/core/DBAdapter/dbStructure.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/core/DBAdapter/dbUpdate.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/core/DBAdapter/tables/Cache.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/core/DBAdapter/tables/CacheExt.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/core/DBAdapter/tables/Cleanings.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/core/DBAdapter/tables/Debt.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/core/DBAdapter/tables/Director.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/core/DBAdapter/tables/Employee.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/core/DBAdapter/tables/Flat.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/core/DBAdapter/tables/ITable.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/core/DBAdapter/tables/Interval.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/core/DBAdapter/tables/IntervalAnketa.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/core/DBAdapter/tables/IntervalFlat.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/core/DBAdapter/tables/IntervalMoney.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/core/DBAdapter/tables/IntervalToday.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/core/DBAdapter/tables/Maiden.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/core/DBAdapter/tables/Manager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/core/DBAdapter/tables/Money.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/core/DBAdapter/tables/Payment.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/core/DBAdapter/tables/Prepay.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/core/DBAdapter/tables/Programmer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/core/DBAdapter/tables/QuerySyntaxException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/core/DBAdapter/tables/State.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/core/DBAdapter/tables/Table.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/core/DBAdapter/tables/TableAlreadyExistsException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/core/DBAdapter/tables/TableNotExistsException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/core/DBAdapter/tasks/AddCleaning.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/core/DBAdapter/tasks/BackupCreate.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/core/DBAdapter/tasks/BackupRestore.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/core/DBAdapter/tasks/Book.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/core/DBAdapter/tasks/Convert.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/core/DBAdapter/tasks/Free.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/core/DBAdapter/tasks/InitDB.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/core/DBAdapter/tasks/RemoveCleaning.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/core/DBAdapter/tasks/Rent.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/core/DBParser.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/core/Day.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/core/DayState.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/core/config/Calendar.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/core/config/Database.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/core/config/Display.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/core/config/IPreferences.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/core/config/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/core/config/Preferences.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/core/config/Sausage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/core/config/Strings.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/core/config/System.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/dialog/Dialog.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/dialog/DialogAddCleaning.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/dialog/DialogBackupCreate.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/dialog/DialogBackupRestore.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/dialog/DialogBook.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/dialog/DialogConvert.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/dialog/DialogFloating.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/dialog/DialogFree.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/dialog/DialogInitDB.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/dialog/DialogOkCancel.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/dialog/DialogRemoveCleaning.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/dialog/DialogRent.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/dialog/DialogSelect.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/dialog/DialogSelectCleaning.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/dialog/DialogSelectInterval.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/dialog/DialogSelectMaiden.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/dialog/DialogSelectRemoveCleanings.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/dialog/DialogThread.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/dialog/IDialog.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/dialog/date/DateSlider.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/dialog/date/DefaultDateSlider.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/dialog/date/ScrollLayout.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/dialog/date/SliderContainer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/dialog/date/TimeObject.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/dialog/floating/select/cleanings/CleaningEntry.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/dialog/floating/select/cleanings/CleaningEntryView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/dialog/floating/select/cleanings/CleaningList.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/dialog/floating/select/cleanings/DialogFloatingSelectCleaning.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/dialog/floating/select/dates/DatesEntry.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/dialog/floating/select/dates/DatesEntryView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/dialog/floating/select/dates/DatesFromTask.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/dialog/floating/select/dates/DatesList.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/dialog/floating/select/dates/DatesToTask.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/dialog/floating/select/dates/DialogFloatingSelectDates.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/dialog/floating/select/interval/DialogFloatingSelectInterval.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/dialog/floating/select/interval/IntervalEntry.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/dialog/floating/select/interval/IntervalEntryView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/dialog/floating/select/interval/IntervalList.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/flat/FlatActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/flat/FlatCalendar.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/flat/FlatCalendarPager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/flat/FlatCalendarRow.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/flat/FlatCalendarRowDay.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/internal/AnimationsViewPager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/internal/AsyncTaskManager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/internal/BroadcastSender.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/internal/CacheLayoutProvider.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/internal/FastBitmapDrawable.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/internal/FastTextView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/internal/IProgressTracker.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/internal/InfinitePagerAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/internal/InfiniteViewPager.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/internal/LayoutProvider.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/internal/OnTaskCompleteListener.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/internal/SamplePagerAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/internal/Task.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/internal/Timer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/internal/source/Border.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/internal/source/BorderedTextView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/launcher/widget/TorchWidget.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/main/MainActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/root/LinuxShell.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/sausage/ISausage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/sausage/Sausage.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/sausage/SausageActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/sausage/SausageCalendar.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/sausage/SausageDay.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/sausage/SausageInfoBar.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/sausage/SausageInfoConvert.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/sausage/SausageInfoDebts.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/sausage/SausageInfoMissName.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/sausage/SausageInfoMissPhone.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/sausage/SausageInfoMissPhoneName.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/sausage/SausageInfoPrepays.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/sausage/SausageInfoWrongPayments.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/sausage/SausageInfoWrongPrices.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/sausage/SausageInfoWrongSumms.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/sausage/SausageMonth.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/sausage/SausageTask.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/source/sqlite/SQLiteCursor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/source/sqlite/SQLiteDatabase.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/source/sqlite/SQLiteException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/source/sqlite/SQLiteNoRowException.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/source/sqlite/SQLitePreparedStatement.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/statistics/CollapsableMaidenAllTime.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/statistics/CollapsableMaidenYearByMonth.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/statistics/CollapsableProfitAllTime.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/statistics/CollapsableProfitYearByMonth.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/statistics/HiddableMaidenAllTime.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/statistics/HiddableMaidenAllYears.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/statistics/HiddableMaidenCurrentPreviousMonths.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/statistics/HiddableMaidenYearByMonth.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/statistics/HiddableProfitAllTime.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/statistics/HiddableProfitAllYears.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/statistics/HiddableProfitWeeks.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/statistics/HiddableProfitYearByMonths.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/statistics/MaidenInterval.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/statistics/ProfitDays.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/statistics/ProfitInterval.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/statistics/StatisticsActivity.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/statistics/StatisticsMaiden.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/statistics/StatisticsProfit.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/utils/AssociativeList.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/utils/AssociativeListTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/utils/CalendarHelper.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/utils/CalendarHelperTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/utils/Color.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/utils/ColorTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/utils/Date.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/utils/DateTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/utils/DateView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/utils/Dimension.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/utils/Print.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/utils/Utils.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/widget/datetime/labeler/DayDateLabeler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/widget/datetime/labeler/DayLabeler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/widget/datetime/labeler/HourLabeler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/widget/datetime/labeler/Labeler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/widget/datetime/labeler/MinuteLabeler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/widget/datetime/labeler/MonthLabeler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/widget/datetime/labeler/MonthYearLabeler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/widget/datetime/labeler/TimeLabeler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/widget/datetime/labeler/Util.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/widget/datetime/labeler/WeekLabeler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/widget/datetime/labeler/YearLabeler.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/widget/datetime/timeview/DayTimeLayoutView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/widget/datetime/timeview/TimeLayoutView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/widget/datetime/timeview/TimeTextView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/widget/datetime/timeview/TimeView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/widget/infobar/IInfo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/widget/infobar/IInfoBar.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/widget/infobar/Info.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/widget/infobar/InfoBar.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/widget/layout/CollapsableLayout.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/widget/layout/Hiddable.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/widget/layout/HiddableLayout.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/widget/layout/ObservableHorizontalScrollView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/widget/layout/ObservableScrollView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/widget/layout/TextedTableRow.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/widget/layout/TitledTableLayout.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/widget/list/anketa/AnketaEntry.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/widget/list/anketa/AnketaEntryView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/widget/list/anketa/AnketaList.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/widget/list/complex/Entry.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/widget/list/complex/EntryAdd.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/widget/list/complex/EntryAddView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/widget/list/complex/EntryEdit.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/widget/list/complex/EntryEditView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/widget/list/complex/EntryView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/widget/list/complex/IEntry.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/widget/list/complex/IEntryObserver.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/widget/list/complex/IEntrySubject.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/widget/list/complex/IListControllerObserver.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/widget/list/complex/IListObserver.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/widget/list/complex/IListSubject.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/widget/list/complex/List.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/widget/list/complex/ListController.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/widget/list/complex/ListView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/widget/list/complex/Visitable.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/widget/list/complex/Visitor.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/widget/list/simple/Entry.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/widget/list/simple/EntryView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/widget/list/simple/IBackButtonObserver.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/widget/list/simple/IBackButtonSubject.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/widget/list/simple/IEntry.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/widget/list/simple/IEntryView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/widget/list/simple/IMenuObserver.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/widget/list/simple/List.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/widget/list/simple/ListView.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/widget/list/simple/SubList.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/by/hut/flat/calendar/widget/list/simple/SubListView.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/anketa/AnketaActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/anketa/AnketaActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/cell/SausageCellDay.java" afterPath="$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/cell/SausageCellDay.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/core/DBAdapter/tables/Payment.java" afterPath="$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/core/DBAdapter/tables/Payment.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/core/DBAdapter/tables/Table.java" afterPath="$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/core/DBAdapter/tables/Table.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/sausage/SausageCalendar.java" afterPath="$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/sausage/SausageCalendar.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/sausage/SausageDay.java" afterPath="$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/sausage/SausageDay.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/utils/Date.java" afterPath="$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/utils/Date.java" />
     </list>
     <ignored path="OrganizerHut.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -482,7 +50,123 @@
     <favorites_list name="OrganizerHut" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Table.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/core/DBAdapter/tables/Table.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="493">
+              <caret line="248" column="4" selection-start-line="248" selection-start-column="4" selection-end-line="248" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SQLiteDatabase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-22/android/database/sqlite/SQLiteDatabase.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="305">
+              <caret line="1254" column="29" selection-start-line="1254" selection-start-column="15" selection-end-line="1254" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SausageCalendar.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/sausage/SausageCalendar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-173">
+              <caret line="128" column="4" selection-start-line="128" selection-start-column="4" selection-end-line="128" selection-end-column="4" />
+              <folding>
+                <element signature="e#5288#5403#0" expanded="true" />
+                <element signature="e#5402#5403#0" expanded="true" />
+                <element signature="e#6334#6559#0" expanded="true" />
+                <element signature="e#6558#6559#0" expanded="true" />
+                <element signature="e#9247#9248#0" expanded="true" />
+                <element signature="e#9284#9285#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BroadcastSender.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/internal/BroadcastSender.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SausageDay.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/sausage/SausageDay.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="221">
+              <caret line="13" column="65" selection-start-line="13" selection-start-column="65" selection-end-line="13" selection-end-column="65" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1483#1484#0" expanded="true" />
+                <element signature="e#1513#1514#0" expanded="true" />
+                <element signature="e#3154#3155#0" expanded="true" />
+                <element signature="e#3220#3221#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SausageCellDay.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/cell/SausageCellDay.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="String.java" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-22/java/lang/String.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-71">
+              <caret line="1764" column="75" selection-start-line="1764" selection-start-column="71" selection-end-line="1764" selection-end-column="77" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Formatter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-22/java/util/Formatter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="16456">
+              <caret line="1009" column="21" selection-start-line="1009" selection-start-column="21" selection-end-line="1009" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DBParser.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/core/DBParser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Interval.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/core/DBAdapter/tables/Interval.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="356">
+              <caret line="74" column="25" selection-start-line="74" selection-start-column="24" selection-end-line="74" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -2058,9 +1742,7 @@
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/utils/Print.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/core/DBParser.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/core/DBAdapter/tables/Table.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/statistics/HiddableProfitWeeks.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/core/DBAdapter/tables/Payment.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/widget/layout/TitledTableLayout.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/statistics/ProfitInterval.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/core/DayState.java" />
@@ -2068,6 +1750,14 @@
         <option value="$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/statistics/StatisticsProfit.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/statistics/StatisticsMaiden.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/statistics/StatisticsActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/core/DBAdapter/tables/Payment.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/anketa/AnketaActivity.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/utils/Date.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/core/DBAdapter/tables/Interval.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/sausage/SausageCalendar.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/sausage/SausageDay.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/cell/SausageCellDay.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/core/DBAdapter/tables/Table.java" />
       </list>
     </option>
   </component>
@@ -2103,210 +1793,7 @@
     <panes>
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OrganizerHut" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OrganizerHut" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OrganizerHut" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OrganizerHut" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OrganizerHut" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OrganizerHut" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OrganizerHut" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OrganizerHut" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OrganizerHut" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OrganizerHut" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OrganizerHut" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="calendar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="widget" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OrganizerHut" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OrganizerHut" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="calendar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OrganizerHut" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OrganizerHut" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="calendar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OrganizerHut" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="OrganizerHut" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="calendar" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
+        <subPane />
       </pane>
       <pane id="Scratches" />
       <pane id="AndroidView">
@@ -2785,7 +2272,7 @@
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946634" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37556055" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37556055" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2799,10 +2286,10 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946634" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946634" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847533" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23056443" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23056443" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32847533" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -2833,115 +2320,18 @@
           <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/anketa/AnketaActivity.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="14" />
+      <option name="time" value="17" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-22/android/database/CursorWrapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
-          <caret line="64" column="34" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-22/android/database/sqlite/SQLiteProgram.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="332">
-          <caret line="105" column="0" selection-start-line="105" selection-start-column="0" selection-end-line="105" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-22/android/database/sqlite/SQLiteQuery.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-22/android/database/sqlite/SQLiteSession.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="835" column="0" selection-start-line="835" selection-start-column="0" selection-end-line="835" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-22/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="465" column="0" selection-start-line="465" selection-start-column="0" selection-end-line="465" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-22/android/database/sqlite/SQLiteDatabaseConfiguration.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="155" column="0" selection-start-line="155" selection-start-column="0" selection-end-line="155" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-22/java/lang/ThreadLocal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="52" column="0" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-22/android/database/sqlite/SQLiteConnection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="844" column="68" selection-start-line="844" selection-start-column="68" selection-end-line="844" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-22/android/database/sqlite/SQLiteCursor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="144" column="0" selection-start-line="144" selection-start-column="0" selection-end-line="144" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-22/android/database/AbstractCursor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="218" column="0" selection-start-line="218" selection-start-column="0" selection-end-line="218" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/local.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/import-summary.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gradlew.bat">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gradlew">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -2975,25 +2365,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/core/DBAdapter/tables/Table.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="267" column="17" selection-start-line="267" selection-start-column="17" selection-end-line="267" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/statistics/CollapsableMaidenYearByMonth.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/statistics/CollapsableProfitAllTime.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
@@ -3033,14 +2405,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/statistics/HiddableProfitAllTime.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-194">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/statistics/HiddableMaidenYearByMonth.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-568">
@@ -3069,22 +2433,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="19" column="41" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/utils/Utils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="75" column="5" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/core/DBAdapter/tables/Payment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="92" column="23" selection-start-line="92" selection-start-column="18" selection-end-line="92" selection-end-column="27" />
           <folding />
         </state>
       </provider>
@@ -3165,14 +2513,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/core/DBParser.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1547">
-          <caret line="353" column="5" selection-start-line="353" selection-start-column="5" selection-end-line="353" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/cell/FlatCell.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1547">
@@ -3237,6 +2577,190 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="731">
           <caret line="50" column="21" selection-start-line="50" selection-start-column="21" selection-end-line="50" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/statistics/HiddableProfitAllTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="42" column="44" selection-start-line="42" selection-start-column="38" selection-end-line="42" selection-end-column="47" />
+          <folding>
+            <element signature="e#657#658#0" expanded="true" />
+            <element signature="e#678#679#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/statistics/CollapsableProfitAllTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="14" column="38" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/core/DBAdapter/tables/Payment.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="249">
+          <caret line="164" column="5" selection-start-line="164" selection-start-column="5" selection-end-line="164" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/sausage/SausageTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/utils/Date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="378" column="29" selection-start-line="378" selection-start-column="29" selection-end-line="378" selection-end-column="29" />
+          <folding>
+            <element signature="e#1836#1837#0" expanded="true" />
+            <element signature="e#1860#1861#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/sausage/SausageInfoBar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="48" column="35" selection-start-line="48" selection-start-column="35" selection-end-line="48" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/core/DBAdapter/DBAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/utils/Utils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="22" column="44" selection-start-line="22" selection-start-column="44" selection-end-line="22" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/anketa/AnketaActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="101" column="38" selection-start-line="101" selection-start-column="33" selection-end-line="101" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/core/DBAdapter/tables/Interval.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="74" column="25" selection-start-line="74" selection-start-column="24" selection-end-line="74" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/core/DBParser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-22/java/util/Formatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16456">
+          <caret line="1009" column="21" selection-start-line="1009" selection-start-column="21" selection-end-line="1009" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-22/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-71">
+          <caret line="1764" column="75" selection-start-line="1764" selection-start-column="71" selection-end-line="1764" selection-end-column="77" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-22/android/view/View.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="17040" column="38" selection-start-line="17040" selection-start-column="38" selection-end-line="17040" selection-end-column="38" />
+          <folding>
+            <element signature="e#663601#663602#0" expanded="true" />
+            <element signature="e#663627#663628#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/cell/SausageCellDay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/sausage/SausageDay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="65" selection-start-line="13" selection-start-column="65" selection-end-line="13" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1483#1484#0" expanded="true" />
+            <element signature="e#1513#1514#0" expanded="true" />
+            <element signature="e#3154#3155#0" expanded="true" />
+            <element signature="e#3220#3221#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/internal/BroadcastSender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/sausage/SausageCalendar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-173">
+          <caret line="128" column="4" selection-start-line="128" selection-start-column="4" selection-end-line="128" selection-end-column="4" />
+          <folding>
+            <element signature="e#5288#5403#0" expanded="true" />
+            <element signature="e#5402#5403#0" expanded="true" />
+            <element signature="e#6334#6559#0" expanded="true" />
+            <element signature="e#6558#6559#0" expanded="true" />
+            <element signature="e#9247#9248#0" expanded="true" />
+            <element signature="e#9284#9285#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Library/Android/sdk/sources/android-22/android/database/sqlite/SQLiteDatabase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="1254" column="29" selection-start-line="1254" selection-start-column="15" selection-end-line="1254" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/core/DBAdapter/tables/Table.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="248" column="4" selection-start-line="248" selection-start-column="4" selection-end-line="248" selection-end-column="4" />
           <folding />
         </state>
       </provider>

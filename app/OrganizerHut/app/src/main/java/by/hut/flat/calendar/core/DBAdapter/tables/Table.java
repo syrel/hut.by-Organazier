@@ -10,14 +10,14 @@ import java.util.List;
 import by.hut.flat.calendar.core.DBAdapter.DBAdapter;
 import by.hut.flat.calendar.utils.Print;
 
-public class Table implements ITable{
+public class Table implements ITable {
 	private final String tableName;
 	private final String createScript;
 	private final String[] tableStructure;
 	protected final DBAdapter db;
 	protected final boolean initOpen;
 	private boolean exist;
-		
+
 	protected boolean invariant(){
 		return this.createScript != null
 				&& this.tableName != null
@@ -47,23 +47,21 @@ public class Table implements ITable{
 		this.initIsExist();
 		if(!initOpen) db.close();
 	}
-	
-	private void initIsExist(){
-		Cursor cursor = db.getDB().rawQuery("SELECT DISTINCT tbl_name FROM sqlite_master WHERE tbl_name = '" + this.tableName + "'", null);
-        if(cursor != null) {
-            if(cursor.getCount() > 0) {
-            	this.exist = true;
-            	cursor.close();
-            	return;
-            }
+
+    private void initIsExist() {
+        Cursor cursor = db.getDB().rawQuery("SELECT DISTINCT tbl_name FROM sqlite_master WHERE tbl_name = '" + this.tableName + "'", null);
+        if (cursor.getCount() > 0) {
+            this.exist = true;
+            cursor.close();
+            return;
         }
         cursor.close();
         this.exist = false;
-	}
-	
-	/*------------------------------------------------------------
-	------------------------- G E T T E R S ----------------------
-	------------------------------------------------------------*/
+    }
+
+    /*------------------------------------------------------------
+    ------------------------- G E T T E R S ----------------------
+    ------------------------------------------------------------*/
 	@Override
 	public boolean isExist(){
 		assert invariant();
@@ -150,7 +148,7 @@ public class Table implements ITable{
 	 * @return 
 	 */
 	@Override
-	public long[] bulkInsert(int[] paramIDs, Object[][] paramValues, String dataType) throws TableNotExistsException{
+	public long[] bulkInsert(int[] paramIDs, Object[][] paramValues, String dataType) throws TableNotExistsException {
 		assert invariant();
 		assert paramIDs != null;
 		assert paramIDs.length > 0;
@@ -162,7 +160,8 @@ public class Table implements ITable{
 		int resultLength = paramValues[0].length;
 		long[] resultIDs = new long[resultLength];
 		
-		if (!this.isExist()) throw new TableNotExistsException(this);
+		if (!this.isExist())
+            throw new TableNotExistsException(this);
 		db.open();
 		db.getDB().beginTransaction();
 		try {
@@ -195,15 +194,15 @@ public class Table implements ITable{
 			db.getDB().setTransactionSuccessful();
 		}
 		catch (Exception e){
-			System.out.println(e);
+			e.printStackTrace();
 		}
 		finally {
 			db.getDB().endTransaction();
 		}
-		if(!initOpen)db.close();
+		if(!initOpen)
+            db.close();
 		return resultIDs;
 	}
-	
 
 	@Override
 	public void updateByID(int keyID, int keyValue, int[] paramIDs, String[] paramValues) {

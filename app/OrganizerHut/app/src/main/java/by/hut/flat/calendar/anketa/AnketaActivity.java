@@ -73,8 +73,10 @@ public class AnketaActivity extends Activity implements OnClickListener, OnPageS
 		db = new DBAdapter(this.context);
 		
 		int IntervalID = extras.getInt(PARAM_INTERVAL_ID);
-		if (IntervalID > 0) initIntervalID(IntervalID);
-		else initIntervalIDs();
+		if (IntervalID > 0)
+			initIntervalID(IntervalID);
+		else
+            initIntervalIDs();
 		initView();
 	}
 	
@@ -92,7 +94,8 @@ public class AnketaActivity extends Activity implements OnClickListener, OnPageS
 	
 	private void initIntervalIDs(){
 		FlatID = extras.getInt(PARAM_FLATID);
-		if (FlatID <= 0) finish();
+		if (FlatID <= 0)
+            finish();
 		Date date = new Date(extras.getString(PARAM_DATE));
 		db.open();
 		Interval intervalDB = new Interval(db);
@@ -293,7 +296,7 @@ public class AnketaActivity extends Activity implements OnClickListener, OnPageS
 		context.startActivity(intent);
 	}
 	
-	public static void show(Context context,int IntervalID,boolean autoEdit){
+	public static void show(Context context,int IntervalID, boolean autoEdit){
 		Intent intent = new Intent(context, AnketaActivity.class);
 		intent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_NO_USER_ACTION);
 		intent.putExtra(PARAM_INTERVAL_ID, IntervalID);

@@ -3,20 +3,21 @@ package by.hut.flat.calendar.sausage;
 import android.content.Context;
 import android.view.LayoutInflater;
 import android.widget.LinearLayout;
+
+import by.hut.flat.calendar.BuildConfig;
 import by.hut.flat.calendar.R;
 import by.hut.flat.calendar.cell.SausageCellDay;
 import by.hut.flat.calendar.core.Config;
 import by.hut.flat.calendar.utils.CalendarHelper;
 import by.hut.flat.calendar.utils.Date;
 
-public class SausageDay extends LinearLayout implements ISausage{
+public class SausageDay extends LinearLayout implements ISausage {
 	
 	protected Context context;
 	protected SausageCellDay[] cells;
 	private Date startDate;
 	private Date finishDate;
 	private int cellsNum;
-	private int FlatID;
 	
 	/* tmp Views */
 	private SausageCellDay cell;
@@ -27,8 +28,7 @@ public class SausageDay extends LinearLayout implements ISausage{
 				&& cells.length > 0
 				&& cells.length == this.cellsNum
 				&& startDate != null
-				&& finishDate != null
-				&& FlatID >= 0;
+				&& finishDate != null;
 	}
 	/*------------------------------------------------------------
 	-------------------- C O N S T R U C T O R S -----------------
@@ -46,13 +46,17 @@ public class SausageDay extends LinearLayout implements ISausage{
 		this.cellsNum = startDate.daysUntil(finishDate)+1;
 		initView();
 	}
-	/*------------------------------------------------------------
-	---------------------------- I N I T -------------------------
-	------------------------------------------------------------*/
+
+    public SausageDay(Context context) {
+        super(context);
+    }
+
+    /*------------------------------------------------------------
+        ---------------------------- I N I T -------------------------
+        ------------------------------------------------------------*/
 	private void initView(){
 		LayoutInflater inflater = (LayoutInflater) getContext().getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         inflater.inflate(R.layout.sausage_calendar_line, this);
-        inflater = null;
 	}
 	
 	/*------------------------------------------------------------
@@ -64,40 +68,41 @@ public class SausageDay extends LinearLayout implements ISausage{
 	@Override
 	public void initCells() {
 		cells = new SausageCellDay[cellsNum];
-		Date date = new Date(startDate.day,startDate.month,startDate.year);
+		Date date = new Date(startDate.day, startDate.month, startDate.year);
 		CalendarHelper calendar = new CalendarHelper(date);
 		int dayOfWeek = calendar.dayOfWeek;
 		/* creating and drawing cells */
-		for (int i = 0; i < cellsNum; i++){
+		for (int anIndex = 0; anIndex < cellsNum; anIndex++) {
 			if (dayOfWeek > 6) dayOfWeek = 0;
-			cell = new SausageCellDay(context,date.copy(),(i == 0) ? true : false, (i == cellsNum-1) ? true : false,dayOfWeek);
-			initCell(cell,i);
+			cell = new SausageCellDay(context, date.copy(), anIndex == 0, anIndex == cellsNum - 1, dayOfWeek);
+			initCell(cell,anIndex);
 			date.next();
 			dayOfWeek++;
 			cell = null;
 		}
-		
-		dayOfWeek = 0;
-		calendar = null;
-		date = null;
-		
-		assert invariant();
+
+		if (BuildConfig.DEBUG) {
+			if (!invariant())
+                throw new AssertionError("Invariant does not hold!");
+		}
 	}
-	private void initCell(SausageCellDay cell, int pos){
+
+	private void initCell(SausageCellDay cell, int anIndex){
 		assert cell != null;
-		cells[pos] = cell;
+		cells[anIndex] = cell;
 	}
+
 	/**
 	 * Adds cells to the layout
 	 */
 	@Override
 	public void addCells(){
-		for (int i = 0; i < cellsNum; i++){
-			addView(cells[i]);
+		for (SausageCellDay cell : cells){
+			addView(cell);
 		}
 	}
 	
-	public Date getDate(int scrollX){
+	public Date getDate(int scrollX) {
 		return cells[scrollX / Config.INST.SAUSAGE.CELL_WIDTH].date;
 	}
 }

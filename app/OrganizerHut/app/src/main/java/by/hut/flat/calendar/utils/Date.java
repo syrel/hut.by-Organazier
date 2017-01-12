@@ -64,7 +64,11 @@ public class Date {
 		this.day = (inttime - this.year * 10000 - this.month * 100);
 		assert invariant();
 	}
-	
+
+	public static Date today() {
+		return new Date();
+	}
+
 	/*------------------------------------------------------------
 	-------------------------- G E T T E R S ---------------------
 	------------------------------------------------------------*/

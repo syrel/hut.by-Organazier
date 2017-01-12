@@ -27,6 +27,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
 
+import java.util.Locale;
+
 public class SausageCalendar extends LinearLayout implements OnTaskCompletedListener{
 
 	private Date startDate;
@@ -76,7 +78,7 @@ public class SausageCalendar extends LinearLayout implements OnTaskCompletedList
 		initDates();
 		initSausages();
 		initButtons();
-		addbuttons();
+		addButtons();
 	}
 	/*------------------------------------------------------------
 	---------------------------- I N I T -------------------------
@@ -139,9 +141,9 @@ public class SausageCalendar extends LinearLayout implements OnTaskCompletedList
 		task.setOnTaskCompletedListener(this);
 		task.execute();
 	}
-	
+
 	private void initButtons(){
-		this.buttons = new Button[dbParser.getFlatNum()+2];
+		this.buttons = new Button[dbParser.getFlatNum() + 2];
 		assert buttons != null;
 		buttonMonth = new Button(context);
 		buttonMonth.setBackgroundResource(R.drawable.button_holo_50x50);
@@ -151,10 +153,9 @@ public class SausageCalendar extends LinearLayout implements OnTaskCompletedList
 			public void onClick(View v) {
 				StatisticsActivity.show(context);
 			}
-
 		});
 		initButton(buttonMonth,0);
-		for (int index = 1,length = dbParser.getFlatNum(); index <= length; index++){
+		for (int index = 1,length = dbParser.getFlatNum(); index <= length; index++) {
 			Button button = new Button(context);
 			button.setBackgroundResource(R.drawable.button_white_50x50);
 			button.setText(Html.fromHtml("<br><big>"+index+"</big><br><small>"+(dbParser.getFlatUseShortAddress(index-1) ? "<font color=\"#5F5F5F\">"+dbParser.getFlatShortAddress(index-1)+"</font></small>":"")));
@@ -171,10 +172,9 @@ public class SausageCalendar extends LinearLayout implements OnTaskCompletedList
 			button.setOnLongClickListener(new OnLongClickListener(){
 				@Override
 				public boolean onLongClick(View v) {
-					AnketaActivity.show(context, Utils.Int(v.getTag().toString())+1, new Date().toString());
+					AnketaActivity.show(context, dbParser.getFlatID(Utils.Int(v.getTag().toString())), Date.today().toString());
 					return false;
 				}
-				
 			});
 			initButton(button,index);
 		}
@@ -197,32 +197,32 @@ public class SausageCalendar extends LinearLayout implements OnTaskCompletedList
 		initButton(buttonYear,dbParser.getFlatNum() + 1);
     	initButtonMonthYear(Config.INST.SYSTEM.TODAY);
 	}
-	
-	private void addbuttons(){
+
+	private void addButtons(){
 		assert buttonsContainer != null;
-		for (int i = 0; i < buttons.length; i++){
-			buttonsContainer.addView(buttons[i]);
+		for (View button : buttons){
+			buttonsContainer.addView(button);
 		}
 	}
-	
-	private void initButton(Button button,int pos){
-		button.setGravity(Gravity.CENTER);
-		button.setMaxHeight(Config.INST.SAUSAGE.BUTTON_HEIGHT);
+
+	private void initButton(Button aButton, int anIndex){
+		aButton.setGravity(Gravity.CENTER);
+		aButton.setMaxHeight(Config.INST.SAUSAGE.BUTTON_HEIGHT);
 		LinearLayout.LayoutParams layoutParams = new LinearLayout.LayoutParams(
 				Config.INST.SAUSAGE.BUTTON_WIDTH,
 				Config.INST.SAUSAGE.BUTTON_HEIGHT, Gravity.NO_GRAVITY);
-		button.setLayoutParams(layoutParams);
-		button.setPadding(0, 0, 0, 0);
-		buttons[pos] = button;
+		aButton.setLayoutParams(layoutParams);
+		aButton.setPadding(0, 0, 0, 0);
+		buttons[anIndex] = aButton;
 	}
-	
+
 	private void initButtonMonthYear(Date date) {
-		String month = Config.INST.STRINGS.MONTHS_OF_YEAR[date.month-1];
+		String month = Config.INST.STRINGS.MONTHS_OF_YEAR[ date.month - 1 ];
 		if (month.length() > 5){
 			month = month.substring(0, 3);
 		}
 		buttonMonth.setText(month);
-		buttonYear.setText(""+date.year);
+		buttonYear.setText(String.format(Locale.US, "%d", date.year));
 	}
 	
 	/*------------------------------------------------------------
@@ -254,22 +254,21 @@ public class SausageCalendar extends LinearLayout implements OnTaskCompletedList
 	public void scrollToToday(){
 		scrollView.post(new Runnable() {
 	        public void run() {
-	        	int scrollTo = getScrollToToday();
-	        	scrollView.scrollTo(scrollTo,0);
+	        	int scrollTo = computeScrollToToday();
+	        	scrollView.scrollTo(scrollTo, 0);
 	        	mCurrentScrollDate = sausageDay.getDate(scrollTo);
 	        	initButtonMonthYear(mCurrentScrollDate);
 	        }
 		});
 	}
-	
+
 	public void setFlatCalendarLoaded(){
 		this.flatCalendarLoaded = true;
 	}
 	/*------------------------------------------------------------
 	-------------------------- G E T T E R S ---------------------
 	------------------------------------------------------------*/
-	private int getScrollToToday(){
-		return (this.startDate.daysUntil(Config.INST.SYSTEM.TODAY)-Config.INST.SAUSAGE.CELLS_NUM_BEFORE_TODAY)*Config.INST.SAUSAGE.CELL_WIDTH;
+	private int computeScrollToToday() {
+		return (this.startDate.daysUntil(Config.INST.SYSTEM.TODAY) - Config.INST.SAUSAGE.CELLS_NUM_BEFORE_TODAY) * Config.INST.SAUSAGE.CELL_WIDTH;
 	}
-	
 }
