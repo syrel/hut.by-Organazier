@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    package="by.hut.flat.calendar"
+    android:versionCode="4"
+    android:versionName="4.0" >
+
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
+    <application
+		android:icon="@drawable/hut_by"
+        android:label="@string/application_name"
+        android:hardwareAccelerated="true"
+        android:largeHeap="true"
+        android:allowBackup="true">
+        <activity 
+            android:label="@string/application_name"
+            android:name="by.hut.flat.calendar.main.MainActivity"
+            android:theme="@style/Theme.Transparent">
+            <intent-filter >
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+		</activity>
+		
+        <receiver android:name="by.hut.flat.calendar.launcher.widget.TorchWidget" android:label="@string/widget_torch_name">
+    		<intent-filter>
+				<action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+				<action android:name="by.hut.flat.calendar.launcher.widget.ACTION_WIDGET_RECEIVER" />
+			</intent-filter>
+    		<meta-data android:name="android.appwidget.provider" android:resource="@xml/widget_torch" />
+		</receiver>
+		
+		<activity android:label="SausageActivity" android:name="by.hut.flat.calendar.sausage.SausageActivity"/>
+		<activity android:label="FlatActivity" android:name="by.hut.flat.calendar.flat.FlatActivity"/>
+		<activity android:label="AnketaActivity" android:theme="@style/Theme.Transparent" android:name="by.hut.flat.calendar.anketa.AnketaActivity"/>
+        <activity android:label="StatisticsActivity" android:theme="@style/Theme.Sherlock" android:name="by.hut.flat.calendar.statistics.StatisticsActivity"/>
+        <activity android:label="AdvancedActivity" android:name="by.hut.flat.calendar.advanced.AdvancedActivity"/>
+        <activity android:label="AdvancedFlatsActivity" android:name="by.hut.flat.calendar.advanced.flats.AdvancedFlatsActivity"/>
+        <activity android:label="AdvancedMaidenActivity" android:name="by.hut.flat.calendar.advanced.maiden.AdvancedMaidenActivity"/>
+        <activity
+            android:label="@string/search_name"
+            android:theme="@style/Theme.Sherlock"
+            android:name="by.hut.flat.calendar.advanced.search.SearchActivity"
+			android:icon="@drawable/hut_by">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:label="TodayActivity" android:theme="@style/Theme.Sherlock" android:name="by.hut.flat.calendar.advanced.today.TodayActivity"/>
+        <activity 
+            android:label="DialogInitDB"
+            android:name="by.hut.flat.calendar.dialog.DialogInitDB"
+            android:theme="@style/DialogActivity">   
+        </activity>
+        <activity 
+            android:label="DialogRent"
+            android:name="by.hut.flat.calendar.dialog.DialogRent"
+            android:theme="@style/DialogActivity">   
+        </activity>
+        <activity 
+            android:label="DialogBook"
+            android:name="by.hut.flat.calendar.dialog.DialogBook"
+            android:theme="@style/DialogActivity">   
+        </activity>
+        <activity 
+            android:label="DialogFree"
+            android:name="by.hut.flat.calendar.dialog.DialogFree"
+            android:theme="@style/DialogActivity">   
+        </activity>
+         <activity 
+            android:label="DialogConvert"
+            android:name="by.hut.flat.calendar.dialog.DialogConvert"
+            android:theme="@style/DialogActivity">   
+        </activity>
+        <activity 
+            android:label="DialogSelectEvent"
+            android:name="by.hut.flat.calendar.dialog.DialogSelectInterval"
+            android:theme="@style/DialogActivity">   
+        </activity>
+        <activity 
+            android:label="DialogSelectMaiden"
+            android:name="by.hut.flat.calendar.dialog.DialogSelectMaiden"
+            android:theme="@style/DialogActivity">   
+        </activity>
+        <activity 
+            android:label="DialogSelectRemoveCleanings"
+            android:name="by.hut.flat.calendar.dialog.DialogSelectRemoveCleanings"
+            android:theme="@style/DialogActivity">   
+        </activity>
+        <activity 
+            android:label="DialogSelectCleaning"
+            android:name="by.hut.flat.calendar.dialog.DialogSelectCleaning"
+            android:theme="@style/DialogActivity">   
+        </activity>
+        <activity 
+            android:label="DialogAddCleaning"
+            android:name="by.hut.flat.calendar.dialog.DialogAddCleaning"
+            android:theme="@style/DialogActivity">   
+        </activity>
+        
+        <activity 
+            android:label="DialogRemoveCleaning"
+            android:name="by.hut.flat.calendar.dialog.DialogRemoveCleaning"
+            android:theme="@style/DialogActivity">   
+        </activity>
+        
+        <activity 
+            android:label="DialogBackupCreate"
+            android:name="by.hut.flat.calendar.dialog.DialogBackupCreate"
+            android:theme="@style/DialogActivity">   
+        </activity>
+        
+        <activity 
+            android:label="DialogBackupRestore"
+            android:name="by.hut.flat.calendar.dialog.DialogBackupRestore"
+            android:theme="@style/DialogActivity">   
+        </activity>
+
+        <activity 
+            android:label="DialogFloatingSelectInterval"
+            android:name="by.hut.flat.calendar.dialog.floating.select.interval.DialogFloatingSelectInterval"
+            android:theme="@style/DialogFloating">   
+        </activity>
+        
+        <activity 
+            android:label="DialogFloatingSelectCleanings"
+            android:name="by.hut.flat.calendar.dialog.floating.select.cleanings.DialogFloatingSelectCleaning"
+            android:theme="@style/DialogFloating">   
+        </activity>
+        
+        <activity
+            android:label="DialogFloatingSelectDates"
+            android:name="by.hut.flat.calendar.dialog.floating.select.dates.DialogFloatingSelectDates"
+            android:theme="@style/DialogFloating">   
+        </activity>
+    </application>
+</manifest>

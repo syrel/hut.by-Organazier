@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/anketa/AnketaPagerEditFrame.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/anketa/AnketaPagerFrame.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/core/DBAdapter/DBAdapter.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/core/DBParser.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/core/DayState.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/dialog/date/DateSlider.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/dialog/date/DefaultDateSlider.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/dialog/date/ScrollLayout.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/dialog/date/SliderContainer.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/dialog/date/TimeObject.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/launcher/widget/TorchWidget.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/app/src/main/java/by/hut/flat/calendar/widget/layout/ObservableHorizontalScrollView.java" charset="UTF-8" />
+  </component>
+</project>
